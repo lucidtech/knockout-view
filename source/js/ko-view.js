@@ -43,7 +43,7 @@ javascript:
   modKey,
   lastKvovIdGiven = 0,
 
-  context = ko.contextFor(document.body),
+  context = ko.contextFor(document.getElementsByTagName('firstrun')[0]),
 
   showText          = "Show",
   hideText          = "Hide",
